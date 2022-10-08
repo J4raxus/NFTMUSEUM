@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/main.css" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>NFT MUSEUM</title>
+  </head>
+  
+  <body class="is-preload">
+    <section id="header">
+      <div>
+        <nav class="navMenu">
+          <a href="/">Home</a>
+          <a href="resume">Resume</a>
+          <a href="formu">Buy plot</a>
+          <a href="nft">NFT</a>
+        <div class="dot"></div>
+      </nav>
+    </div>
+      <header>
+        <img src="images/logoprojet5.png" >
+        <p>YOUR NFT COLLECTION IN A NEW WORLD</p>
+      </header>
+      <footer>
+
+        <div>
+          <a onclick="openForm()" class="button style2 scrolly-middle">Logged in : ClementG</a>
+        </div>
+        <div class="login-popup">
+          <div class="form-popup" id="popupForm">
+            <form action="/action_page.php" class="form-container">
+              <h2>Veuillez vous connecter</h2>
+              <label for="email">
+              <strong>E-mail</strong>
+              </label>
+              <input type="text" id="email" placeholder="Votre Email" name="email" required>
+              <label for="psw">
+              <strong>Mot de passe</strong>
+              </label>
+              <input type="password" id="psw" placeholder="Votre Mot de passe" name="psw" required>
+              <button type="submit" class="btn">Connecter</button>
+              <button type="button" class="btn inscription" onclick="closeForm()">Inscription</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+        
+    </section>
+
+    <div id="root"></div>
+    <style>
+      img {
+        width: 300px;
+        border: 4px solid black;
+      }
+    </style>
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/jquery.poptrox.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/popup.js"></script>
+
+  </body>
+</html>

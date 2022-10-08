@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/main.css" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <title>Confiance|Bien-être|Douceur</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <body class="is-preload">
+
+      <!-- Header -->
+        <section id="header">
+          <header>
+            <h1>Confiance|Bien-être|Douceur</h1>
+            <p>CBD</p>
+          </header>
+          <footer>
+            <a href="#banner" class="button style2 scrolly-middle">Découvrez notre archive</a>
+          </footer>
+        </section>
+  
+      <!-- Banner -->
+        <section id="banner">
+          <header>
+            <h2>Notre archive</h2>
+          </header>
+          <p>test.</p>
+          
+        </section>
+  
+
+
+      <!-- Contact -->
+        <article class="container box style3">
+          <header>
+            <div id="test"></div>
+          </header>
+        </article>
+  
+      <section id="footer">
+        <ul class="icons">
+          <li><a href="https://www.tarmax.com/pages/8ball/" target="_blank" class="fas fa-hand-spock"></a></li>
+        </ul>
+        <div class="copyright">
+          <ul class="menu">
+            <li>&copy; Clément Guimard</li>
+          </ul>
+        </div>
+      </section>
+  
+      <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/jquery.poptrox.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+  
+
+
+  </body>
+</html>
